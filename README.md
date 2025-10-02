@@ -16,3 +16,6 @@ brew "<formula>"
 ## Documentation
 
 `brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+
+## Formulae
+- [oz](https://github.com/Vi5tar/oz) - an AWS CLI wrapper that makes my workflow easier
