@@ -1,5 +1,5 @@
 class Oz < Formula
-  desc "awscli macros"
+  desc "AWS CLI macros"
   homepage "https://github.com/Vi5tar/oz"
   url "https://github.com/Vi5tar/oz/archive/refs/tags/v1.0.0-alpha.1.tar.gz"
   sha256 "28bd59381fa8ad86bd5931f506bbf220dff58b4ba43e33dc9c320a43880778bf"
@@ -21,7 +21,7 @@ class Oz < Formula
   end
 
   test do
-    assert_predicate bin/"oz", :exist?
-    system bin/"oz", "--help"
+    assert_path_exists bin/"oz"
+    system bin/"oz", "help"
   end
 end
